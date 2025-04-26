@@ -1,0 +1,50 @@
+@import '../app/_variables';  /* Import global variables if needed */
+
+/* Navigation Bar */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: $navbar-background-color; /* From _variables.scss */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $navbar-logo-color; /* From _variables.scss */
+  a{
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+  }
+}
+
+.authButtons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.textBtn {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: $primary-color; /* From _variables.scss */
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $hover-color; /* From _variables.scss */
+  }
+}
+
+.signInBtn {
+  background-color: $primary-color; /* Example color */
+}
+
+.userBtn {
+  background-color: $user-button-color; /* Example color */
+}

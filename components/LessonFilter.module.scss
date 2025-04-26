@@ -1,0 +1,59 @@
+@import '../app/_variables';
+
+.filterTitle {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: $text-color;
+}
+
+.toggleButton {
+  background-color: #FFB300;  // Golden yellow
+  color: #ffffff;             // White text
+  border: none;
+  border-radius: 6px;         // Border radius
+  padding: 10px 16px;         // Padding for the button
+  font-size: 1rem;            // Font size
+  font-weight: 600;           // Font weight
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+
+  &:hover {
+    background-color: #FF9800;  // Slightly darker yellow for hover
+  }
+
+  &:active {
+    background-color: #F57C00;  // Even darker yellow for active state
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(31, 120, 255, 0.4);  // Blueish shadow on focus
+  }
+}
+
+.filterContainer {
+  background-color: $card-background-color;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px $shadow-color;
+  margin-top: 1rem;
+}
+
+.statusOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.statusLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  color: $text-color;
+}
+
+.checkbox {
+  transform: scale(1.2);
+}

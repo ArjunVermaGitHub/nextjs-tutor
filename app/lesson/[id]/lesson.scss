@@ -1,0 +1,46 @@
+.lesson-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .lesson-content {
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+    }
+  
+    p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+  
+    ul {
+      margin-left: 1.25rem;
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  
+    pre {
+        background: black;
+        color: rgb(37, 230, 37);
+          padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      code {
+        font-family: monospace;
+
+
+      }
+    }
+  }
+  
