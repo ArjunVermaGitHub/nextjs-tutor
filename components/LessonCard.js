@@ -14,7 +14,9 @@ const LessonCard = ({ lessonId, title }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <h2>{title}</h2>
-      <Link href={`/lesson/${lessonId}`}>Learn More</Link>
+      <Link href={`/lesson/${lessonId}`}>
+        Learn More
+      </Link>
     </div>
   );
 };
