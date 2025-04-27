@@ -24,6 +24,19 @@ export default function RootLayout({ children }) {
     <QueryClientProvider client={queryClient}>
       <ClerkProvider>
         <html lang="en">
+        <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                (function() {
+                  const darkMode = localStorage.getItem('darkMode') === 'true';
+                  if (darkMode) {
+                    document.documentElement.classList.add('dark-mode');
+                  } else {
+                    document.documentElement.classList.remove('dark-mode');
+                  }
+                })();`,
+            }}
+          />
           <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
             <Navigation />
             <main className="main-content">{children}</main>

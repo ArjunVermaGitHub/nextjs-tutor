@@ -1,13 +1,5 @@
-'use client';
-
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from '@clerk/nextjs';
-
-// Import the CSS module for scoped styling
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
+import DarkModeButton from './DarkModeButton'; // importing a client component
 import styles from './Navigation.module.scss';
 
 export function Navigation() {
@@ -18,8 +10,9 @@ export function Navigation() {
       </div>
 
       <div className={styles.authButtons}>
+        <DarkModeButton />
+
         <SignedOut>
-          {/* SignInButton automatically opens modal without page redirect */}
           <SignInButton mode="modal">
             <button className={styles.textBtn}>Sign In</button>
           </SignInButton>
