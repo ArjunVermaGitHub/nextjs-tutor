@@ -1,6 +1,6 @@
 # NextJS explained like you're 5
 
-## Features
+##  ✨ Features
 
 - **Clerk Login**: Ensures user data is tracked effectively.
 - **Backend**: Serves a list of lessons and their details via an API, along with the user's progress for each lesson.
@@ -18,7 +18,7 @@
 - **React Query**: Utilized for data fetching and management.
 - **Vercel Integration**: Integrated for deployment and hosting.
 
-## Bugs / Missing Features
+## 🐞 Bugs / Missing Features
 
 - **Database**: There is no actual DB connection. All data is stored in local variables on a Next.js backend server running locally. This app serves as a demonstration of Next.js capabilities.
 - **Security**: The use of `dangerouslySetInnerHTML` compromises security but was used for speed during development.
@@ -42,7 +42,7 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -62,7 +62,7 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 📚 Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
