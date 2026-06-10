@@ -1,4 +1,4 @@
-# Website Write-Up
+# NextJS explained like you're 5
 
 ## Features
 
