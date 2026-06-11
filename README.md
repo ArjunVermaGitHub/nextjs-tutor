@@ -1,5 +1,7 @@
 # NextJS explained like you're 5
 
+<img width="2560" height="1440" alt="Screenshot 2026-06-11 at 7 33 07 AM (2)" src="https://github.com/user-attachments/assets/6d226a84-0d42-40fc-a0e1-a927c4836ebc" />
+
 ##  ✨ Features
 
 - **Clerk Login**: Ensures user data is tracked effectively.
